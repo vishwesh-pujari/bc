@@ -1,12 +1,12 @@
-typedef struct node {
+typedef struct node { // node of the linked list
 	struct node *prev;
 	char digit;
 	struct node *next;
 }node;
 
 typedef struct Num {
-	node *head;
-	node *tail;
+	node *head; // pointer to first node of linked list
+	node *tail; // pointer to last node of linked list
 	int sign; // 0 means +ve and 1 means -ve
 	int intCount; // length of the number
 	int decimalCount;
@@ -38,3 +38,12 @@ Num powe(Num, Num, int);
 double s(Num);
 double c(Num);
 double t(Num);
+int lessThan(Num*, Num*);
+int greaterThan(Num*, Num*);
+int equalTo(Num*, Num*);
+int notEqualTo(Num*, Num*);
+int lessThanEqualTo(Num*, Num*);
+int greaterThanEqualTo(Num*, Num*);
+int logicalNot(Num*);
+int logicalAnd(Num*, Num*);
+int logicalOr(Num*, Num*);
