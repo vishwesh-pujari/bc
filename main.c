@@ -35,6 +35,7 @@ int main(int argc, char **argv) {
 			printf("5) Logical Operators    : &&, ||, !\n");
 			printf("6) Math Functions       : sqrt(), s(), c(), t()\n");
 			printf("                                  sin, cos, tan\n\n\n");
+			printf("Angle given to s(), c(), t() must be in degrees\n");
 			printf("Type quit to exit out of the program\n\n");
 			printf("Type clear to clear the terminal screen\n\n");
 			printf("scale variable can be set to obtain the desired scale of division, modulo and power operator\n");
