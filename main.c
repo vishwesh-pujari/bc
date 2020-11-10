@@ -74,6 +74,9 @@ int main(int argc, char **argv) {
 			printf("Invalid Character. (eg a + b)\n");
 			printf("Warning : Exponent contains decimal values. Considering exponent as the equivalent integer. (eg 23 ^ 1.36)\n");	
 			return 0;
+		} else {
+			printf("Invalid Option. Try : ./bc --help\n");
+			return 0;
 		}	
 	} else if (argc == 1) {
 
